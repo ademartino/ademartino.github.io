@@ -41,10 +41,11 @@ h1, h2, h3 {
 #layout-menu {
 	background: #FFFFFF;
 	border: black;
-	padding-top: 0.5em;
-	padding-left: 100px;
+	padding-top: 3.2em;
+	padding-left: 20px;
 	padding-right: 8px;
-	font-size: 1.0em;
+	font-size: 80%;
+        color: #527bbd;
 	width: 10px;
 	white-space: nowrap;
         text-align: left;
@@ -92,7 +93,7 @@ a:hover {
 #layout-menu a.current:link, #layout-menu a.current:visited {
 /*	color: #022b6d; */
         color: #3c3c3c;
-	border-bottom: 1px gray solid;
+	border-bottom: 1px gray solid; 
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
 	color: #527bbd;
@@ -103,7 +104,7 @@ a:hover {
 }
 
 div.menu-category {
-	border-bottom: 1px solid gray;
+/*	border-bottom: 1px solid gray; */
 	margin-top: 0.8em;
 	padding-top: 0.2em;
 	padding-bottom: 0.1em;

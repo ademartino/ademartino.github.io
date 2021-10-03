@@ -26,7 +26,7 @@ pre, tt {
         font-family: 'Lato';
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: #224b8d;
         margin-top: 0.7em;
         margin-bottom: 0.3em;
@@ -156,10 +156,24 @@ h2 + h3 {
 }
 
 h3 {
+    color: #224b8d;
+        margin-top: 0.7em;
+        margin-bottom: 0.3em;
+        padding-bottom: 0.2em;
+        line-height: 1.0;
+        padding-top: 0.2em;
+       /* border-bottom: 1px solid #aaaaaa; */
+        font-family: 'Lato';
+	text-align: left;
+        font-size: 100%;
+	border-bottom: none;	
+}
+
+/* h3 {
     background: #FBF5DC;
     font-size: 100%;
 	border-bottom: none;
-}
+} */
 
 p {
 	margin-top: 0.0em;
